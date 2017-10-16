@@ -15,3 +15,5 @@
     default = simple
 [help]
     autocorrect = 0
+[core]
+	editor = vim
