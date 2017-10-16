@@ -1,0 +1,17 @@
+[alias]
+    st = status
+    co = checkout
+    br = branch
+    ci = commit
+    df = diff
+    branches = branch --list
+    stashes = stash list
+    tags = tag --list
+[user]
+    email = danielkinsman@riseup.net
+    #email = daniel.kinsman@biarri.com
+    name = Daniel Kinsman
+[push]
+    default = simple
+[help]
+    autocorrect = 0
