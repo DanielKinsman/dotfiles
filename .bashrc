@@ -219,4 +219,4 @@ LESS=-R
 export GUROBI_HOME="/opt/gurobi651/linux64"
 export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:${GUROBI_HOME}/lib"
 
-export TERM="xterm-256color"
+export TERM="putty-256color"
