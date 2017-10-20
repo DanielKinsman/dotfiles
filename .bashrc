@@ -72,6 +72,8 @@ xterm*|rxvt*)
     ;;
 esac
 
+export TERM="screen-256color"
+
 # Start tmux if interactive
 [[ $- != *i* ]] && return
 [[ -z "$TMUX" ]] && exec tmux
@@ -218,5 +220,3 @@ LESS=-R
 
 export GUROBI_HOME="/opt/gurobi651/linux64"
 export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:${GUROBI_HOME}/lib"
-
-export TERM="putty-256color"
