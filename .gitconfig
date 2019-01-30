@@ -16,4 +16,4 @@
 [help]
     autocorrect = 0
 [core]
-	editor = vim
+	editor = nvim
