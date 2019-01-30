@@ -121,6 +121,7 @@ fi
 
 #enable globstar for ** goodness
 shopt -s globstar
+shopt -s extglob
 
 #branch on the bash prompt (using tmux instead now)
 function getbranch
