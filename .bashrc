@@ -221,3 +221,4 @@ LESS=-R
 
 export GUROBI_HOME="/opt/gurobi651/linux64"
 export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:${GUROBI_HOME}/lib"
+export MAIL="/var/mail/$USER"
