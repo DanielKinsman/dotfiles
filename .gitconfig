@@ -9,7 +9,6 @@
     tags = tag --list
 [user]
     email = danielkinsman@riseup.net
-    #email = daniel.kinsman@biarri.com
     name = Daniel Kinsman
 [push]
     default = simple
