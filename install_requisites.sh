@@ -4,10 +4,10 @@ set -e
 
 if [[ -f $(which pacman) ]]
 then
-    pacman -S --noconfirm zsh neovim
+    pacman -S --noconfirm zsh neovim tmux
 elif [[ -f $(which apt-get) ]]
 then
-    apt-get install -y zsh neovim
+    apt-get install -y zsh neovim tmux
 else
     echo 2>"i don't know how to install packages so do it yourself"
     exit 1
