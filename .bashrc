@@ -219,6 +219,9 @@ function hgst
 
 LESS=-R
 
+if [[ -f /usr/bin/virtualenvwrapper.sh ]]; then source /usr/bin/virtualenvwrapper.sh; fi
+
 export GUROBI_HOME="/opt/gurobi651/linux64"
 export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:${GUROBI_HOME}/lib"
 export MAIL="/var/mail/$USER"
+export PIP_CONFIG_FILE="$HOME/.config/pip/pip.conf"
