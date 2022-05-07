@@ -16,3 +16,5 @@
     autocorrect = 0
 [core]
 	editor = nvim
+[init]
+	defaultBranch = main
